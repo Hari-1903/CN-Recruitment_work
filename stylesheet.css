@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #000;
+  font-size: 62.5%; /* 1 rem = 10px  */
+  overflow-x: hidden;
+}
+
+.header {
+  height: 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-weight: 700;
+  margin-left: 4rem;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.header a:active,
+.header a:link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-right: 3.6rem;
+}
+
+.signup-btn {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}
+
+/*-----------------------------------*/
+
+.opening-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 7rem;
+  padding: 10rem;
+  width: 100%;
+  overflow: none;
+}
+
+.opening-text {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 2.6rem;
+}
+
+.opening-title {
+  font-weight: 500;
+  font-size: 5.6rem;
+  line-height: 6.6rem;
+  margin-bottom: 5.6rem;
+}
+
+.trial-btn {
+  color: #fff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+/*-----------------------------------*/
+
+.trusted-companies {
+  height: 26rem;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.trusted-companies p {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+.circle {
+  height: 8rem;
+  width: 8rem;
+  background-color: #000;
+  margin-right: 4rem;
+  border-radius: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------------------------*/
+
+.recruit-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 50rem;
+  gap: 7rem;
+  padding: 10rem;
+  background-color: #333;
+}
+
+.recruit-title {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 4.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.recruit-text {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 4.8rem;
+}
+
+.recruit-subtext {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/*-----------------------------------*/
+
+.rd-grey {
+  background-color: #f2f2f2;
+}
+
+.rt-dark {
+  color: #000;
+}
+
+.rst-dark {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.rd-white {
+  background-color: #fff;
+}
+
+/*-----------------------------------*/
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 3rem;
+  padding: 13.5rem;
+}
+
+.main-tab {
+  grid-column: 1/-1;
+  display: flex;
+  background-color: #000;
+}
+
+.tab-titlename {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 7rem;
+}
+
+.read-more {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #fff;
+}
+
+.tab-title {
+  font-weight: 500;
+  font-size: 5.6rem;
+  line-height: 6.6rem;
+  color: #fffcfc;
+  margin-bottom: 12rem;
+}
+
+.tab-1 {
+  padding: 4.8rem;
+  padding-bottom: 5rem ;
+  background-color: #f2f2f2;
+}
+
+.stab-title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: #000;
+  margin-bottom: 1.6rem;
+}
+
+.stab-content {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #000;
+  margin-bottom: 2.4rem;
+}
+
+.stab-read {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #000;
+}
+
+
